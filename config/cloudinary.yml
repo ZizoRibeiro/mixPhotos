@@ -1,0 +1,19 @@
+---
+development:
+  cloud_name: dnvt8yayd
+  api_key: '494711272795392'
+  api_secret: 14WTGUqu7HKZnDu3kR39v6ce5Ts
+  enhance_image_tag: true
+  static_image_support: false
+production:
+  cloud_name: dnvt8yayd
+  api_key: '494711272795392'
+  api_secret: 14WTGUqu7HKZnDu3kR39v6ce5Ts
+  enhance_image_tag: true
+  static_image_support: true
+test:
+  cloud_name: dnvt8yayd
+  api_key: '494711272795392'
+  api_secret: 14WTGUqu7HKZnDu3kR39v6ce5Ts
+  enhance_image_tag: true
+  static_image_support: false
