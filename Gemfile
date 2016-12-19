@@ -11,6 +11,9 @@ gem 'puma', '~> 3.0'
 gem 'carrierwave'
 gem 'carrierwave-base64'
 gem 'cloudinary'
+gem 'rack-cors'
+
+gem 'envyable'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 # gem 'jbuilder', '~> 2.5'
 # Use Redis adapter to run Action Cable in production
@@ -27,7 +30,10 @@ gem 'cloudinary'
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
+
 end
+
+# gem 'dotenv-rails' , :groups => [:development, :test]
 
 group :development do
   gem 'listen', '~> 3.0.5'
